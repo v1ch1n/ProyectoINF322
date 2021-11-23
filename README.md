@@ -2,6 +2,6 @@
 
 ## Instalación:
 
-Instalar las dependencias necesarias detalladas en *package.json*:
+Instalar las dependencias necesarias detalladas en *package.json*, se debe utilizar el siguiente comando
 
 * npm install 
