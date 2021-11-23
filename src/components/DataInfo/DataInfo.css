@@ -1,0 +1,7 @@
+.elementWrapper{
+    display: flex;
+    float: right;
+    width: 25%;
+    clear: both;
+    background-color: pink;
+}
