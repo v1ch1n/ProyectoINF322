@@ -1,5 +1,7 @@
 # ProyectoINF322
 
-## Instalar: 
+## Instalación:
 
-npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+Instalar las dependencias necesarias detalladas en *package.json* a través del comando:
+
+* npm install 
