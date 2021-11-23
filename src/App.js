@@ -7,13 +7,13 @@ import DataInfo from "./components/DataInfo/DataInfo"
 function App() {
   return (
     <div>
-     <Topbar/>
-     <div className="container">
-       <Sidebar/>
-       <Home />
-       <FeaturedInfo/>
-       <DataInfo />
-     </div>
+    <Topbar />
+    <div className="container">
+      <Sidebar/>
+      <Home />
+      <FeaturedInfo/>
+      {/* <DataInfo/> */}
+    </div>
     </div>
   );
 }

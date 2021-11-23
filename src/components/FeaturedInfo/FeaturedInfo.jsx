@@ -2,7 +2,7 @@ import "./FeaturedInfo.css";
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import Avatar from '@mui/material/Avatar';
 import { AvatarGroup } from "@mui/material";
-
+import { pink } from '@mui/material/colors';
 export default function FeaturedInfo() {
     return (
         <div className="featuredInfo">
@@ -13,7 +13,7 @@ export default function FeaturedInfo() {
                     </div>
                 </div>
                 <li className="buttonList">
-                <AddCircleOutlineIcon  fontSize="large"> asasa
+                <AddCircleOutlineIcon  fontSize="large" sx={{ color: pink[500] }}>
                 </AddCircleOutlineIcon>
                 <div className="buttonDescription"> Crear proyecto</div>
                 </li>
@@ -81,6 +81,7 @@ export default function FeaturedInfo() {
                 
             </div>
         </div>
+
 
     )
 }

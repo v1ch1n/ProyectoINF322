@@ -1,6 +1,7 @@
 .elementWrapper{
     display: flex;
-    float: left;
+    float: right;
     width: 25%;
+    clear: both;
     background-color: pink;
 }
