@@ -2,19 +2,26 @@ import Topbar from "./components/Topbar/Topbar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import "./app.css";
 import Home from "./pages/home/Home"
-import FeaturedInfo from "./components/FeaturedInfo/FeaturedInfo";
-import DataInfo from "./components/DataInfo/DataInfo"
+import Statistics from "./pages/statistics/Statistics";
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+
 function App() {
   return (
-    <div>
+    <Router>
     <Topbar />
     <div className="container">
       <Sidebar/>
-      <Home />
-      <FeaturedInfo/>
-      {/* <DataInfo/> */}
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/statistics" element={<Statistics />} /> 
+      </Routes>
     </div>
-    </div>
+    </Router>
   );
 }
 

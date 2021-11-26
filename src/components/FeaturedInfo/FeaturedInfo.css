@@ -1,5 +1,5 @@
 .featuredInfo{
-    margin-top: 70px;
+    margin-top: 30px;
     padding-left: 50px;
     width: 100%;
     display:flex;
@@ -34,8 +34,6 @@
     word-wrap:break-word;
     max-width: 450px;
     font-family: 'Source Sans Pro', sans-serif;
-    
-    
 }
 
 .featuredButton{
@@ -133,9 +131,6 @@
     clear:left;
 }
 
-
-
-
 .projectStatus{
     float:left;
     clear:left;
@@ -144,14 +139,14 @@
 }
 
 .progressbar{
-    float:left;
     background-color: rgb(155, 146, 146);
     border-radius: 13px;
     /* (height of inner div) / 2 + padding */
-    width: 180px;
-    padding: 3px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 4px;
     clear:left;
-    float:left;
+    float:center;
 }
 
 .progressbarPrimary{

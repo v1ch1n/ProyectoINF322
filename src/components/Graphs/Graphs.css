@@ -1,0 +1,16 @@
+.elementWrapper{
+    width: 100%;   
+    display:flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.graphContainer{
+    display:flex;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+}

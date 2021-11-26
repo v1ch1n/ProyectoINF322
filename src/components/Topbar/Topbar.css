@@ -55,6 +55,16 @@
     cursor: pointer;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
+    color: #e91e63;
+    text-decoration: none;
+}
+
+.options:hover{
+    color: #e91e63;
+}
+
+.active{
+    border-bottom: #e91e63 solid 2px;
 }
 
 .topRight{

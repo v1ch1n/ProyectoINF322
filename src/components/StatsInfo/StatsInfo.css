@@ -1,0 +1,94 @@
+.statsInfo{
+    position: absolute;
+    display: inline-block;
+    width: 1300px;
+    height: 800px;
+    top: 50%;
+    left: 50%;
+    background-color: #e91e63;
+    margin: -275px 0 0 -600px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.statsTitle{
+    position: relative;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.statsProjects{
+    position: relative;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.MuiAvatar-rounded{
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.statsChart{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 30%;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 190px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    border-radius: 8px;
+    float: left;
+}
+
+.chartTitle{
+    position: absolute;
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    top: 10px; 
+}
+
+.linearProgress{
+    background-color: white;
+    position: relative;
+    width: 30%;
+    display: flex;
+    margin-left: 190px;
+    border-radius: 8px;
+}
+
+.linearProgressDescription{
+    position: relative;
+    display: run-in;
+}
+
+.progressbar{
+    background-color: rgb(155, 146, 146);
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    width: 75%;
+    clear:left;
+    float:center;
+}
+
+.MuiAvatarGroup-root{
+    margin-top: 35px;
+}
+
+.MuiAvatar-rounded:hover{
+    border: #e91e63 solid 2px;
+}

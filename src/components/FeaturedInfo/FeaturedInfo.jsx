@@ -21,7 +21,7 @@ export default function FeaturedInfo() {
             </div>
             <div className="featuredProjects">
                 <div className="featuredCardPrimary">
-                    <img src="https://www.gamegrin.com/assets/games/uncharted-4-a-thiefs-end/primary-image/_resampled/SetWidth280-uncharted-4-a-thiefs-end-boxart-cover.jpg" alt="icon" className="cardIcon"/>
+                    <img src="https://iweb.tatthanh.com.vn/pic/3/blog/images/image(3328).png" alt="icon" className="cardIcon"/>
                     <div className="featuredCardDescription">
                         <div>Miembros</div>
                         <AvatarGroup max={4} className="featuredDisplayMember">
@@ -36,7 +36,7 @@ export default function FeaturedInfo() {
                     
                 </div>
                 <div className="featuredCardSecondary">
-                    <img src="https://www.gamegrin.com/assets/games/uncharted-4-a-thiefs-end/primary-image/_resampled/SetWidth280-uncharted-4-a-thiefs-end-boxart-cover.jpg" alt="icon" className="cardIcon"/>
+                    <img src="https://images.squarespace-cdn.com/content/v1/542bd2a6e4b0852297eb5f88/1456192644917-BO2PZNF7A30SBI55KPPL/Chon2.jpg?format=1500w" alt="icon" className="cardIcon"/>
                     <div className="featuredCardDescription">
                         <div>Miembros</div>
                         <AvatarGroup max={4} className="featuredDisplayMember">
@@ -57,7 +57,7 @@ export default function FeaturedInfo() {
                 </div>
 
                 <div className="featuredCardTernary">
-                    <img src="https://www.gamegrin.com/assets/games/uncharted-4-a-thiefs-end/primary-image/_resampled/SetWidth280-uncharted-4-a-thiefs-end-boxart-cover.jpg" alt="icon" className="cardIcon"/>
+                    <img src="https://yt3.ggpht.com/d0Obn2GZNDXqUc15SPYJDbomDic17Ysv2VlQOj2imo9WgCk8hy8M-6nHWsJ3YKLahTUk4FKlQDk=s900-c-k-c0x00ffffff-no-rj" alt="icon" className="cardIcon"/>
                     <div className="featuredCardDescription">
                         <div className="a">Miembros</div>
                         <AvatarGroup max={4} className="featuredDisplayMember">

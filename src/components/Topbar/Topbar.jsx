@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Topbar.css";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import { NavLink } from 'react-router-dom';
+
 export default function Topbar() {
     return (
         <div className="topbar">
@@ -9,10 +11,10 @@ export default function Topbar() {
                     {/* <span className="logo">Logo</span> */}
                 </div>
                 <div className="topCenter">
-                    <div className="options">Dashboard</div>
+                    <NavLink to="/" className='options' activeClassName='active'>Dashboard</NavLink>
                     <div className="options">Proyectos</div>
                     <div className="options">Miembros</div>
-                    <div className="options">Estadísticas</div>
+                    <NavLink to="/statistics" className="options" activeClassName='active'>Estadísticas</NavLink>
                     <div className="options">Ayuda</div>
                 </div>
                 <div className="topRight">

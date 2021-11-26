@@ -1,13 +1,17 @@
 import "./Sidebar.css"
 import {Chat,Home,CalendarToday,Help, Settings} from '@mui/icons-material';
 import { pink } from '@mui/material/colors';
+import { Link } from 'react-router-dom';
+
 export default function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebarWrapper">
                 <div className="sidebarMenu">
                     <div className="section">
-                    <Home sx={{ color: pink[500] }} fontSize="large"></Home>
+                    <Link to="/">
+                        <Home sx={{ color: pink[500] }} fontSize="large"></Home>
+                    </Link>
                     </div>
                   
                     <div className="section">
